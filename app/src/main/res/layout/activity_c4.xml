@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaaaa"
+    tools:context=".C4">
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="333dp"
+        android:layout_height="339dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/suspensii_auto_informatii" />
+    <Button
+        android:id="@+id/inapoic4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="inapoi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.837" />
+
+    <Button
+        android:id="@+id/inaintec4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="inainte"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.766"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.837" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="333dp"
+        android:layout_height="220dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Roluri principale ale sistemului de suspensie sunt de a mentine permanent contactul cu solul, de a asigura trecerea peste neregularitatile solului in conditii de siguranta si amortizeaza socurile cauzate de imperfectiunile suprafetei de rulare implicit asigura confortul in timpul rularii"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView33"
+        app:layout_constraintVertical_bias="0.556"
+         />
+</androidx.constraintlayout.widget.ConstraintLayout>

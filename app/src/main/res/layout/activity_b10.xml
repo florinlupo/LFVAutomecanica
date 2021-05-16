@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaaaa"
+    tools:context=".B10">
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="299dp"
+        android:layout_height="237dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/pictre7" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="373dp"
+        android:layout_height="114dp"
+        android:textStyle="bold"
+        android:text="1.Pompe mecanice de apa, Lichidul de răcire al pompei de apă preia  căldura din blocul motor şi din chiulasă  şi prin intermediul radiatorului o degajă  în aerul ambiant, în funcţie de construcţie, pompele mecanice de apă fie sunt  montate într-o carcasă proprie pe  exteriorul motorului fie sunt fixate cu  flanşă direct pe carcasa motorului"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.376" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="381dp"
+        android:layout_height="128dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="2.Pompe electrice de apa,pompele electrice de apă contribuie  semnificativ la reducerea emisiilor la  conceptele de motoare moderne, capacitatea de transport independentă  față de turaţia motorului permite o răcire  a motorului în funcţie de necesităţi. "
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.564" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="372dp"
+        android:layout_height="96dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="3.Pompe de recirculare a apei, pompele de recirculare a apei se utilizează  oriunde trebuie realizate funcţii de răcire  sau încălzire independent de circuitul de  răcire."
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.728" />
+
+    <Button
+        android:id="@+id/inapoi10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="inapoi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.201"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.884" />
+
+    <Button
+        android:id="@+id/inainte10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="inainte"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.763"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.884" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

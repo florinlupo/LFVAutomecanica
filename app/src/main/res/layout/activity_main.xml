@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaaaa"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Bbenzina"
+        android:layout_width="176dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="252dp"
+        android:text="Motor Benzina"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Bdiesel"
+        android:layout_width="176dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="45dp"
+        android:text="Motor Diesel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Bbenzina" />
+
+    <Button
+        android:id="@+id/Belectric"
+        android:layout_width="176dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="45dp"
+        android:text="Motor Electric"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Bdiesel" />
+
+    <Button
+        android:id="@+id/Bcaroserie"
+        android:layout_width="176dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="45dp"
+        android:text="Caroserie si altele"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Belectric" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="235dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="128dp"
+        android:gravity="center_horizontal"
+        android:rotationX="0"
+        android:rotationY="0"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:text="Bun venit!"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

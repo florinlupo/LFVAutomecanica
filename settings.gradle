@@ -1,0 +1,2 @@
+rootProject.name = "LFV Automecanica"
+include ':app'

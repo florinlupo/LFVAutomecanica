@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaaaa"
+    tools:context=".C5">
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="334dp"
+        android:layout_height="241dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.054"
+        app:srcCompat="@drawable/parti_componente_sisteme_suspensie" />
+
+    <Button
+        android:id="@+id/inapoic5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="inapoi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.206"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87" />
+
+    <Button
+        android:id="@+id/inaintec5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="inainte"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.774"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="389dp"
+        android:layout_height="257dp"
+        android:gravity="center_horizontal"
+        android:text="Arc elicoidal sau foi de arc – acesta fiin un factor important in obtinerea si mentinerea coeficientuli  ,, garda sol’’  a autovehiculului si acumuleaza energia disipata la trecerea peste denivelari urmand ca aceasta sa fie eliberata la destinderea acestuia.arc elicoidal sau foi de arc – acesta fiin un factor important in obtinerea si mentinerea coeficientuli  ,, garda sol’’  a autovehiculului si acumuleaza energia disipata la trecerea peste denivelari urmand ca aceasta sa fie eliberata la destinderea acestuia."
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.374" />
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="386dp"
+        android:layout_height="110dp"
+        android:gravity="center_horizontal"
+        android:text=" Amortizor – cu rolul principal de a controla destinderea / oscilatia arcului pastrand astfel un comportament controlabil al autovehiculului la trecerea peste denivelari"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.652" />
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="368dp"
+        android:layout_height="89dp"
+        android:gravity="center_horizontal"
+        android:text="Diverse bucse de cauciuc – elemente izolatoare cu rol de a diminua zgomotele cauzate de frecarea la contactul pneului cu suprafata de rulare."
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.782" />
+</androidx.constraintlayout.widget.ConstraintLayout>
